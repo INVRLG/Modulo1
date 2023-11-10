@@ -1,0 +1,120 @@
+h1{
+    padding: 5px;
+}
+
+
+/* input{
+    border: 3px solid purple;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    max-width: 100px;
+
+} */
+
+/* div.login-usuario, div.login-password{
+    border: 3px solid purple;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    max-width: 100px;
+
+} */
+
+#usuario, #password{
+    border: 3px solid purple;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    max-width: 100px;
+
+
+}
+
+
+li{
+    padding: 10px;
+    font-weight: bold;
+    
+}
+
+ol li{
+    color: red;
+
+}
+
+ol li:hover{
+    background-color: pink;
+    max-width: 100px;
+}
+
+ul li:hover{
+    background-color: gray;
+    max-width: 100px;
+}
+
+ul li{
+    color: blue;
+}
+
+
+
+/* 
+
+h1{
+        
+    color: red;
+}
+
+p1 {
+    padding: blue 10px;
+    border: 10px solid black;
+    margin: 10px black;
+    font-size: 20px;
+    color:brown;
+    font-weight: bold;
+}
+
+.subverdes{
+    color: green;
+}
+
+#soy4{
+    color:red;
+}
+
+ol li{
+    color:red;
+    font-size: 15px;
+}
+
+div > li{
+    color:greenyellow;
+    font-size: 15px;
+}
+
+[type="text"]{
+    border:2px solid red;
+}
+
+[type="text"]:hover{
+    background-color: green;
+    cursor:progress;
+
+}
+
+p:hover{
+    color: pink;
+    cursor: pointer;
+}
+
+div{
+    margin: 1px auto;
+}
+
+div:hover{
+
+} */

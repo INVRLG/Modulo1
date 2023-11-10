@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    background-color: bisque;
+    grid-template-rows: 100px;
+    text-align: center;
+}
+
+.item{
+    margin: 30px;
+    background-color: yellowgreen;
+
+}
+
+.container1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: coral;
+}
+
+.celda{
+    background-color: blueviolet;
+    margin: 30px;
+}

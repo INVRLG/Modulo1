@@ -1,0 +1,19 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    text-align: center;
+}
+/* FR es una "fraccion" que define el espacio disponible en la cuadricula */
+
+.item{
+    background-color: aqua;
+}
+
+.item2{
+    display: flex;
+    /* para centrar contenido dentro de mi item*/
+    align-items: center;/* centrar verticalmente */
+    justify-content: center;/*centrar de forma horizontal */
+    background-color: aqua;
+}
