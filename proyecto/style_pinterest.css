@@ -1,22 +1,38 @@
-
-#navbar-pinterest{
-    margin: 0;
-    display: grid;
-    position: fixed;
-    grid-template-columns: repeat(9, 1fr);
-    z-index: 999;
+header {
     background-color: white;
-    justify-content: space-around;
-    padding: 10px;
-    align-items: center;
+    color: black;
+    padding: 10px 0;
+    margin:0;
+    z-index: 999;
+    position: fixed;
     top: 0;
+    left: 0;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+
 }
 
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
 
-nav img{
+nav li {
+    margin: 0 15px;
+}
+
+nav img {
+    color: #fff;
+    text-decoration: none;
     width: 20px;
-    padding-left: 30px;
+    height: auto;
 }
+
 
 #inicio{
     display: flex;
@@ -30,22 +46,17 @@ nav img{
     font-size: 14px;
 }
 
-#crear, #explorar{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 14px;
-}
 
-#crear:hover, #explorar:hover, #inicio:hover, #message:hover, #profile-img:hover, #abajo:hover{
+#crear:hover, #explorar:hover, #inicio:hover{
     cursor: pointer;
 }
-
 
 .finder{
     background-color: whitesmoke;
     border-radius: 20px;
     border: 1px solid whitesmoke;
     padding-left: 30px;
-    padding-right: 600px;
+    padding-right: 500px;
     padding-top: 10px ;
     padding-bottom: 10px;
     background-image: url('/proyecto/imagenes/find.png');
@@ -125,7 +136,6 @@ nav img{
 
 .card-image{
     position: relative;
-    /* display: inline-block; */
     border-radius: 15px;
     overflow:hidden;
     width: 100%;
@@ -242,7 +252,75 @@ nav img{
     }    
 }
 
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
 
+    .finder{
+        width: 70vh;    
+    }
+    
+}
+
+#notification{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+#notification:hover {
+    width: 30px;
+    height: 30px;
+    background-color: lightgray;
+    border-radius: 50%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    cursor: pointer;
+}
+
+#message{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+#message:hover {
+    width:15px;
+    height: 15px;
+    background-color: lightgray;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+#circulo, p{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: lightgray;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-size: smaller;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+}
+
+#circulo:hover {
+    width:30px;
+    height: 30px;
+    background-color: lightgray;
+    border-radius: 50%;
+    cursor: pointer;
+}
 
 
 
